@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+ <meta name="theme-color" content="#171219">
+ <meta name="description" content="慈福會線上參拜。敬獻慈光燈、每日求籤、瞻閱慈恩法物與慈福之音。《七日奇談放送組》故事延伸網站。">
+ <meta name="referrer" content="strict-origin-when-cross-origin">
+ <title>慈福會｜白母慈悲，有求必應</title>
+ <link rel="icon" href="./assets/emblem.svg" type="image/svg+xml">
+ <link rel="stylesheet" href="./styles.css">
+ <script type="module" src="./app.mjs"></script>
+</head>
+<body>
+ <a class="skip" href="#main">跳至主要內容</a>
+ <div class="topline"><span>萬應白母・慈光常在</span><a href="#records">我的參拜紀錄</a></div>
+ <header class="site-header">
+  <a class="brand" href="#home" aria-label="慈福會首頁"><img src="./assets/emblem.svg" alt="" width="64" height="64"><span>慈福會<small>慈悲入世・福澤長明</small></span></a>
+  <button id="menu-toggle" class="menu-toggle" aria-label="開啟導覽選單" aria-expanded="false" aria-controls="site-nav">選單</button>
+  <nav id="site-nav" aria-label="主要導覽">
+   <a href="#home">首頁</a><a href="#about">關於慈福會</a><a href="#lamps">慈光燈</a><a href="#fortune">線上求籤</a><a href="#offerings">慈恩法物</a><a href="#news">慈福之音</a>
+  </nav>
+ </header>
+ <div id="storage-warning" class="storage-warning" role="status" hidden></div>
+ <main id="main" tabindex="-1"></main>
+ <footer class="site-footer">
+  <div class="footer-main"><a href="#home" class="brand"><img src="./assets/emblem.svg" alt="" width="50" height="50"><span>慈福會<small>白母慈悲，有求必應</small></span></a><p>一念所求，皆有慈光相伴。</p><a class="text-link" href="#records">參拜紀錄與資料說明</a></div>
+  <div class="footer-bottom"><span>《七日奇談放送組》故事延伸・虛構宗教組織</span><span>點燈與求籤紀錄僅儲存於您的瀏覽器。<a href="#notice">網站說明</a></span></div>
+ </footer>
+ <dialog id="modal" aria-labelledby="modal-title"><div id="modal-content"></div><button class="modal-close" type="button" aria-label="關閉視窗">關閉</button></dialog>
+ <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+ <noscript><p class="storage-warning">請啟用 JavaScript 以使用點燈與每日求籤。本站不需要帳號，紀錄只儲存在此瀏覽器。</p></noscript>
+</body>
+</html>
