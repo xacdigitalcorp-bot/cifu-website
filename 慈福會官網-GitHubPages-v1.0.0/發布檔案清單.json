@@ -1,0 +1,85 @@
+{
+  "version": "1.0.0",
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 2554
+    },
+    {
+      "path": "styles.css",
+      "bytes": 25519
+    },
+    {
+      "path": "app.mjs",
+      "bytes": 30935
+    },
+    {
+      "path": "core.mjs",
+      "bytes": 3877
+    },
+    {
+      "path": "cards.mjs",
+      "bytes": 1970
+    },
+    {
+      "path": "content.mjs",
+      "bytes": 8372
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 1
+    },
+    {
+      "path": "README.md",
+      "bytes": 4501
+    },
+    {
+      "path": "assets/approved-visual.png",
+      "bytes": 2492229
+    },
+    {
+      "path": "assets/water.png",
+      "bytes": 2218389
+    },
+    {
+      "path": "assets/bell.png",
+      "bytes": 2544250
+    },
+    {
+      "path": "assets/charm.png",
+      "bytes": 2665789
+    },
+    {
+      "path": "assets/lamp.png",
+      "bytes": 2098276
+    },
+    {
+      "path": "assets/serif.ttf",
+      "bytes": 16851596
+    },
+    {
+      "path": "assets/OFL.txt",
+      "bytes": 4350
+    },
+    {
+      "path": "assets/emblem.svg",
+      "bytes": 1050
+    },
+    {
+      "path": "assets/spirit-wheel.svg",
+      "bytes": 1489
+    },
+    {
+      "path": "assets/fortune-tin.png",
+      "bytes": 2462860
+    },
+    {
+      "path": "assets/fortune-cookie.png",
+      "bytes": 2126219
+    },
+    {
+      "path": "assets/fortune-cookie-open.png",
+      "bytes": 1468270
+    }
+  ]
+}
